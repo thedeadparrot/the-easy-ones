@@ -3168,7 +3168,7 @@ props {
 props {
   name: "diveBar_furniture_largePoolTable"
   gridPoint {
-    x: -7
+    x: -6
     y: 0
     z: 0
   }
@@ -7624,23 +7624,6 @@ props {
   lod: 0
 }
 props {
-  name: "vfx_fx_dancingMan"
-  gridPoint {
-    x: -6
-    y: 0
-    z: -38
-  }
-  orientation: ORIENTATION_S
-  properties {
-    property_id: "fxScript"
-    string_value: "DancingManBar"
-  }
-  idRef {
-    id: "53dda0e2663532e179085dcf"
-  }
-  lod: 0
-}
-props {
   name: "diveBar_clutter_bottle03"
   gridPoint {
     x: -9.1
@@ -7668,5 +7651,39 @@ props {
     z: 4
   }
   orientation: ORIENTATION_S
+  lod: 0
+}
+props {
+  name: "vfx_fx_dancingMan"
+  gridPoint {
+    x: -18
+    y: 0
+    z: -38
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "DancingManBar"
+  }
+  idRef {
+    id: "53de7648663532e179085e34"
+  }
+  lod: 0
+}
+props {
+  name: "vfx_fx_dancingWoman"
+  gridPoint {
+    x: -8
+    y: 0
+    z: -49
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "DancingWomanBar"
+  }
+  idRef {
+    id: "53de764e663532e179085e35"
+  }
   lod: 0
 }

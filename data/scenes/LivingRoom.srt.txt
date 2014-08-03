@@ -6,39 +6,6 @@ triggers {
     }
   }
   conditions {
-    ops {
-      functionName: "Comparison (bool)"
-      args {
-        call_value {
-          functionName: "Get Variable (bool)"
-          args {
-            string_value: "gol_BlaineConvo"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "IsOrIsNot"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-    }
   }
   actions {
     ops {
@@ -86,7 +53,7 @@ triggers {
       }
     }
   }
-  isActive: true
+  isActive: false
   idRef {
     id: "53d6e4e4663532ca6807147e"
   }
@@ -391,6 +358,47 @@ triggers {
   }
   is_oneshot: true
 }
+triggers {
+  name: "init_TexComplete"
+  events {
+    ops {
+      functionName: "On Conversation Complete"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Enable/Disable Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "EnableOrDisable"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "53d6e4e4663532ca6807147e"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53de5a51663532e179085e2e"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
 regions {
   name: "Camera Region"
   position {
@@ -629,14 +637,6 @@ characters {
     portrait_code_override: " s6h7c14b0t0"
     karma: 6
     hiring_cost_override: 3000
-  }
-}
-variables {
-  bool_value: false
-  variableref_value {
-    scope: TsVariableScope_Scene
-    name: "gol_BlaineConvo"
-    typeName: "bool"
   }
 }
 goals {
