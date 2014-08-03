@@ -1,0 +1,44 @@
+idRef {
+  id: "53d773ae66353279136af69f"
+}
+ui_name: "s0_IntroText"
+nodes {
+  idRef {
+    id: "53d773b666353279136af6a8"
+  }
+  index: 0
+  text: "The apartment Kurt shares with Blaine is nothing to write home about. Their hovel (because that\'s all it could be called) is tiny and dirty and cramped, the worst of what Bergen Beach has to offer."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "53d84a5066353279136af6e7"
+  }
+  index: 1
+  text: "As runners, they could afford better if they set their hearts on it, but it pays to lay low, stay off NYPD Inc. radar. So they make do with what they have. The windows leak during particularly bad storms. The hallways always smell like curry."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "53d84bf166353279136af6ec"
+  }
+  index: 2
+  text: "But it\'s home, or something like it. Life in the shadows is all about making the most of what you have."
+  branches {
+    responseText: ""
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 0
+}

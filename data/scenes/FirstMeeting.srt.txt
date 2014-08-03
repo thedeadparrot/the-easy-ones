@@ -1,0 +1,895 @@
+triggers {
+  name: "tel_DanceFloor"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "53dd8ede663532e179085da7"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Stop Music"
+    }
+    ops {
+      functionName: "Teleport Actor"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "53dd04c7663532e20fb530fa"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 3
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeleportMethod"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Teleport Camera To Actor"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53dcfd8d663532e20fb530d8"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "tel_Bar"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "53dd7f09663532e179085d94"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Stop Music"
+    }
+    ops {
+      functionName: "Teleport Actor"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Center of Region"
+          args {
+            call_value {
+              functionName: "Get Map Item (Region)"
+              args {
+                string_value: "53dd0571663532e20fb530fe"
+              }
+            }
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "FacingDirection"
+          }
+          args {
+            int_value: 4
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TeleportMethod"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Teleport Camera To Actor"
+      args {
+        call_value {
+          functionName: "Triggering Actor"
+        }
+      }
+    }
+    ops {
+      functionName: "Play Music"
+      args {
+        call_value {
+          functionName: "Get Map Item (Music)"
+          args {
+            string_value: "Berlin_Club"
+          }
+          args {
+            string_value: "Berlin-Club01"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "musicOn"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53dd0584663532e20fb530ff"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "JukeBox"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "53dd0e58663532e20fb53110"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "musicOn"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Play Music"
+      args {
+        call_value {
+          functionName: "Get Map Item (Music)"
+          args {
+            string_value: "Seattle_Bar"
+          }
+          args {
+            string_value: "Seattle-Bar07"
+          }
+        }
+      }
+      args {
+        float_value: 1
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "musicOn"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53dd0e65663532e20fb53111"
+  }
+  elseActions {
+    ops {
+      functionName: "Stop Music"
+    }
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "musicOn"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "mapInit"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Retain Other Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "53dcfd8d663532e20fb530d8"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Retain Other Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "53dd0584663532e20fb530ff"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Retain Other Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "53dd0e65663532e20fb53111"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53dd216d663532e179085d2e"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+regions {
+  name: "BarRegion"
+  position {
+    x: -21
+    y: -8
+    width: 25
+    height: 21
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  idRef {
+    id: "53dcfcad663532e20fb530d7"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.25
+    y: -1
+    z: -0.8
+  }
+  directional_light_color {
+    r: 0.827451
+    g: 0.827451
+    b: 0.6
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.36862746
+    g: 0.17647059
+    b: 0.039215688
+    a: 1
+  }
+  ambience_template: "bar-busy"
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: true
+}
+regions {
+  name: "BarTeleportRegion"
+  position {
+    x: -6
+    y: -6
+    width: -2
+    height: 2
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "53dd04c7663532e20fb530fa"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
+regions {
+  name: "DanceFloorTeleportRegion"
+  position {
+    x: -22
+    y: -49
+    width: -2
+    height: 2
+  }
+  enabledAtStart: true
+  is_camera_region: false
+  idRef {
+    id: "53dd0571663532e20fb530fe"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.5
+    y: -1
+    z: -0.75
+  }
+  directional_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.50196081
+    g: 0.50196081
+    b: 0.50196081
+    a: 1
+  }
+  ambience_template: ""
+  combat_music: ""
+  default_music: ""
+  loop_combat_music: true
+  loop_default_music: false
+}
+regions {
+  name: "DanceFloorRegion"
+  position {
+    x: -1
+    y: -52
+    width: -24
+    height: 23
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  idRef {
+    id: "53dd05db663532e20fb53102"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.4
+    y: -1
+    z: -0.15
+  }
+  directional_light_color {
+    r: 0.24705882
+    g: 0.43921569
+    b: 0.41176471
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.21960784
+    g: 0.094117649
+    b: 0.20784314
+    a: 1
+  }
+  ambience_template: "bar-busy"
+  combat_music: ""
+  default_music: "Silence"
+  loop_combat_music: true
+  loop_default_music: false
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -1
+    y: 0
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53dad4c3663532fc3d204044"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Core/ElfMale"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Player"
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "Player_SamuraiStarter"
+    }
+    team_id: "Shadowrunners"
+    char_name: "Kurt Hummel"
+    pc_spawn_number: -1
+    hiring_type: HiringType_None
+    portrait {
+      filename: "shadowrun-glee-kurt"
+    }
+    portrait_code_override: " s6h7c14b0t0"
+    karma: 6
+    hiring_cost_override: 3000
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -5
+    y: 0
+    z: -3
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53de2bb0663532e179085dd0"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    interactionIcon: InteractionIcon_ItemPickup
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Core/HumanMale"
+    character_sheet_id: "Lvl3_Merc_Human_Techmaster"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Guard - Protect"
+      attitude: AttitudeAggressive
+    }
+    equipment {
+      prefab_name: "RiggerTrenchcoat"
+    }
+    equipment {
+      prefab_name: "ESP Kamikaze"
+    }
+    equipment {
+      prefab_name: "PR Killer 1"
+    }
+    equipment {
+      prefab_name: "PR Erosion 1"
+    }
+    equipment {
+      prefab_name: "PR Shield 1"
+    }
+    equipment {
+      prefab_name: "DroneAttackB_Strato9"
+    }
+    equipment {
+      prefab_name: "Pi 2 Ares Predator (Smartlink)"
+    }
+    equipment {
+      prefab_name: "CyberdeckKraftwerk1"
+    }
+    equipment {
+      prefab_name: "ESP Assassin"
+    }
+    equipment {
+      prefab_name: "PR Blaster 2"
+    }
+    equipment {
+      prefab_name: "DroneRepairKit_med"
+    }
+    team_id: "Civilians"
+    char_name: "Aruba"
+    pc_spawn_number: -1
+    hiring_type: HiringType_Hireable
+    cyberware_jack: "Datajack"
+    cyberware_body: "Dermal Plating Mk 1"
+    portrait {
+      filename: "Backer_HumanMale_JanRadersheidt"
+    }
+    description_bio: "The Network has trusted me as the avatar that will control the machines of this age."
+    karma: 3
+    hiring_cost_override: 1800
+    hiring_tag: "Techmaster"
+    is_backer: true
+    is_prop_character: true
+    id: "Lvl3_Merc_Human_Techmaster"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "musicOn"
+    typeName: "bool"
+  }
+}
+worldMapLocation {
+  filename: ""
+  location {
+    x: 0
+    y: 0
+  }
+}
+mapName: "FirstMeeting"
+parentStory: ""
+scene_title: "New Scene"
+scene_subtitle: ""
+scene_synopsis: ""
+scene_image: ""
+scene_continue_button_skip: false
+scene_restore_runner_health: false
+directional_light_dir {
+  x: -0.5
+  y: -1
+  z: -0.75
+}
+directional_light_color {
+  r: 0.50196081
+  g: 0.50196081
+  b: 0.50196081
+}
+ambient_light_color {
+  r: 0.50196081
+  g: 0.50196081
+  b: 0.50196081
+}
+allow_drawn_weapons: false
+team_affiliations {
+  team_name: "Shadowrunners"
+  affiliation: 0
+  affiliation: 1
+  affiliation: 1
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "Gangers"
+  affiliation: 1
+  affiliation: 0
+  affiliation: 1
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "LoneStar"
+  affiliation: 1
+  affiliation: 1
+  affiliation: 0
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "Civilians"
+  affiliation: 0
+  affiliation: 0
+  affiliation: 0
+  affiliation: 0
+}
+scene_dimensions {
+  dimension_name: "Default"
+}
+character_roster {
+}
+show_hiring_screen_on_scene_load: false
+scene_hiring_prerequisites {
+  prereq_description: ""
+  prereq_conditions {
+  }
+}
+hiring_slot_count: 0
+hiring_minimum_karma: 0
+hiring_maximum_karma: 25
+roster_overrides {
+}
+use_hiring_cost_warning: false
+hiring_average_cost: 0
+override_hiring_average_cost: false
+show_equip_screen_on_scene_load: false
+can_move_outside_camera_regions: true
+can_start_before_triggers: true

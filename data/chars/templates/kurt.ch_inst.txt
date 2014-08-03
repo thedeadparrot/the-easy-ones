@@ -1,0 +1,42 @@
+prefab_name: "Seattle:Core/ElfMale"
+character_sheet_id: "BaseCivilian"
+character_mod {
+  stats {
+    body: 0
+    quickness: 0
+    strength: 0
+    charisma: 0
+    intelligence: 0
+    willpower: 0
+    essence: 0
+    hp: 0
+    ap: 0
+    morale: 0
+    discipline: 0
+    awareness: 0
+    perception: 0
+    authority: 0
+    protect_tether_range: 0
+    move_speed: 0
+  }
+  skills {
+  }
+  specializations {
+  }
+  archetypeName: "Player"
+  vulnerabilities {
+  }
+}
+equipment {
+  prefab_name: "Player_SamuraiStarter"
+}
+team_id: "Shadowrunners"
+char_name: "Kurt Hummel"
+pc_spawn_number: -1
+hiring_type: HiringType_None
+portrait {
+  filename: "shadowrun-glee-kurt"
+}
+portrait_code_override: " s6h7c14b0t0"
+karma: 6
+hiring_cost_override: 3000

@@ -1,0 +1,729 @@
+triggers {
+  name: "gol_TalkToBlaine"
+  events {
+    ops {
+      functionName: "On Conversation Complete"
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Comparison (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "gol_BlaineConvo"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Goal Status"
+      args {
+        call_value {
+          functionName: "Get Map Item (Goal)"
+          args {
+            string_value: "Talk to Blaine"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "GoalStatus"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Clear Waypoint from Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53d6d872663532ca68071468"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53d6e4e4663532ca6807147e"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "init_Map"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Start Conversation"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "53d773ae66353279136af69f"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Active Actor"
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Waypoint on Actor"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PrimaryOrSecondary"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53d6d872663532ca68071468"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Cause Damage"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "53d6d872663532ca68071468"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        int_value: 10
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "HPOrAP"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53d7103666353279136af65b"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "gol_SetGoToBed"
+  events {
+    ops {
+      functionName: "On Goal Update"
+      args {
+        call_value {
+          functionName: "Get Map Item (Goal)"
+          args {
+            string_value: "Talk to Blaine"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+    ops {
+      functionName: "Evaluate Goal"
+      args {
+        call_value {
+          functionName: "Get Map Item (Goal)"
+          args {
+            string_value: "Talk to Blaine"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "GoalStatus"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "IsOrIsNot"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+  actions {
+    ops {
+      functionName: "Set Goal Status"
+      args {
+        call_value {
+          functionName: "Get Map Item (Goal)"
+          args {
+            string_value: "Go to Bed"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "GoalStatus"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Waypoint on Prop"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "PrimaryOrSecondary"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "53d9773666353279136af73b"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53d977b366353279136af73c"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "gol_CompleteGoToBed"
+  events {
+    ops {
+      functionName: "On Item Interaction"
+      args {
+        call_value {
+          functionName: "Get Map Item (InteractableObject)"
+          args {
+            string_value: "53d9773666353279136af73b"
+          }
+        }
+      }
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Goal Status"
+      args {
+        call_value {
+          functionName: "Get Map Item (Goal)"
+          args {
+            string_value: "Go to Bed"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "GoalStatus"
+          }
+          args {
+            int_value: 2
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Clear Waypoint from Prop"
+      args {
+        call_value {
+          functionName: "Get Map Item (Prop)"
+          args {
+            string_value: "53d9773666353279136af73b"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Open Scene"
+      args {
+        call_value {
+          functionName: "Get Map Item (Scene)"
+          args {
+            string_value: "FirstMeeting"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53d97a06663532922fb52dfd"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+regions {
+  name: "Camera Region"
+  position {
+    x: -9
+    y: -16
+    width: 13
+    height: 13
+  }
+  enabledAtStart: true
+  is_camera_region: true
+  idRef {
+    id: "53d9461166353279136af739"
+  }
+  highlight_color {
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  }
+  visible_at_start: false
+  is_teleporter_region: false
+  directional_light_dir {
+    x: -0.25
+    y: -1
+    z: -0.85
+  }
+  directional_light_color {
+    r: 0.36862746
+    g: 0.50196081
+    b: 0.1882353
+    a: 1
+  }
+  ambient_light_color {
+    r: 0.19215687
+    g: 0.18431373
+    b: 0.090196081
+    a: 1
+  }
+  ambience_template: "haven-quiet"
+  combat_music: ""
+  default_music: "Berlin-Haven"
+  loop_combat_music: true
+  loop_default_music: true
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -6
+    y: 0
+    z: -15
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53d6d872663532ca68071468"
+  }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    prerequisites {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "gol_BlaineConvo"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 0
+            }
+          }
+        }
+      }
+    }
+    conversationPoint {
+      conversationID: "53d6e02d663532ca6807146e"
+      turnToFace: true
+    }
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Core/HumanMale"
+    character_sheet_id: "Lvl6_Human_Decker"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Guard - Protect"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "Berlin_Player_DeckerJacket"
+    }
+    team_id: "Civilians"
+    char_name: "Blaine Anderson"
+    pc_spawn_number: -1
+    hiring_type: HiringType_Hireable
+    cyberware_eyes: "Vision Magnification Eyes"
+    cyberware_jack: "Datajack"
+    cyberware_body: "Wired Reflexes"
+    portrait {
+      filename: "shadowrun-glee-blaine"
+    }
+    portrait_code_override: "s5h1c11b0t0"
+    karma: 6
+    hiring_cost_override: 3000
+    is_prop_character: false
+    id: "blaine"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -3
+    y: 0
+    z: -2
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53d6dcba663532ca6807146a"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Core/ElfMale"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Player"
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "Player_SamuraiStarter"
+    }
+    team_id: "Shadowrunners"
+    char_name: "Kurt Hummel"
+    pc_spawn_number: -1
+    hiring_type: HiringType_None
+    portrait {
+      filename: "shadowrun-glee-kurt"
+    }
+    portrait_code_override: " s6h7c14b0t0"
+    karma: 6
+    hiring_cost_override: 3000
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "gol_BlaineConvo"
+    typeName: "bool"
+  }
+}
+goals {
+  name: "Talk to Blaine"
+  type: GoalType_Primary
+  status: GoalStatus_Started
+}
+goals {
+  name: "Go to Bed"
+  type: GoalType_Primary
+  status: GoalStatus_Hidden
+}
+worldMapLocation {
+  filename: ""
+  location {
+    x: 0
+    y: 0
+  }
+}
+mapName: "LivingRoom"
+parentStory: ""
+scene_title: "End of Day"
+scene_subtitle: ""
+scene_synopsis: "Some people live for this part -- when a run has been completed, the client has paid up, and all that\'s left to do is to clean up the remaining mess -- but Kurt\'s never been one of them.\n\nHe\'s bone tired. He wants to sleep.\n\nBlaine\'s already finished up his own run. He pinged Kurt earlier to let him know the good news. A clean job by the sounds of it. That\'s a rare enough occurrence that it\'s worthy of celebration all on its own, but there won\'t be any celebrating tonight.\n\nHis boyfriend is waiting for him at home. That\'s enough."
+scene_image: ""
+scene_continue_button_skip: false
+scene_restore_runner_health: false
+directional_light_dir {
+  x: -0.5
+  y: -1
+  z: -0.75
+}
+directional_light_color {
+  r: 0.50196081
+  g: 0.50196081
+  b: 0.50196081
+}
+ambient_light_color {
+  r: 0.50196081
+  g: 0.50196081
+  b: 0.50196081
+}
+allow_drawn_weapons: false
+team_affiliations {
+  team_name: "Shadowrunners"
+  affiliation: 0
+  affiliation: 1
+  affiliation: 1
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "Gangers"
+  affiliation: 1
+  affiliation: 0
+  affiliation: 1
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "LoneStar"
+  affiliation: 1
+  affiliation: 1
+  affiliation: 0
+  affiliation: 0
+}
+team_affiliations {
+  team_name: "Civilians"
+  affiliation: 0
+  affiliation: 0
+  affiliation: 0
+  affiliation: 0
+}
+scene_dimensions {
+  dimension_name: "Default"
+}
+character_roster {
+}
+show_hiring_screen_on_scene_load: false
+scene_hiring_prerequisites {
+  prereq_description: ""
+  prereq_conditions {
+  }
+}
+hiring_slot_count: 0
+hiring_minimum_karma: 0
+hiring_maximum_karma: 0
+roster_overrides {
+}
+use_hiring_cost_warning: false
+hiring_average_cost: 0
+override_hiring_average_cost: false
+show_equip_screen_on_scene_load: false
+can_move_outside_camera_regions: true
+can_start_before_triggers: true

@@ -1,0 +1,433 @@
+idRef {
+  id: "53d6e02d663532ca6807146e"
+}
+ui_name: "s0_EndOfDayDiscussion"
+nodes {
+  idRef {
+    id: "53d6f3f166353279136af5fb"
+  }
+  index: 0
+  text: "{{GM}}Blaine clearly hasn\'t had time to take a shower yet. He\'s still sweating, his curls trying to break free from the gel, and he\'s still dressed in his gear.{{/GM}}\n\nYou made it."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6d872663532ca68071468"
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "gol_BlaineConvo"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a150663532922fb53014"
+  }
+  index: 1
+  text: "This time, anyway."
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6dcba663532ca6807146a"
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a38c663532922fb53034"
+  }
+  index: 2
+  text: "{{GM}}Blaine shakes his head.{{/GM}}\n\nYou can\'t think that way, Kurt. That\'s not how this works."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6d872663532ca68071468"
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a396663532922fb53037"
+  }
+  index: 3
+  text: "{{GM}}Blaine smiles. It\'s a small, tentative thing that makes him look younger than he is. Humans all look young in Kurt\'s eyes, though.{{/GM}}\n\nIf we give up hope now, then what\'s the point of any of it?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6d872663532ca68071468"
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a3a7663532922fb5303a"
+  }
+  index: 4
+  text: "It\'s an argument they\'ve had multiple times already, and Kurt doesn\'t want to hash it out again. He sighs, shaking his head."
+  branches {
+    responseText: ""
+    nextNodeIndex: 5
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "53d9a447663532922fb53057"
+  }
+  index: 5
+  text: "The smile slips off Blaine\'s face as he fails to hide his wince of pain. Thick white bandages have been wrapped around Blaine\'s right wrist, hidden underneath the cuff of his sleeve. They\'d been there. Kurt just hadn\'t noticed them."
+  branches {
+    responseText: ""
+    nextNodeIndex: 6
+  }
+  nodeType: ConversationNodeType_GM_Voice
+  actions {
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53d6d872663532ca68071468"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "injured"
+          }
+          args {
+            string_value: "injured"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a6d7663532fc3d203c59"
+  }
+  index: 6
+  text: "What happened?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6dcba663532ca6807146a"
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a6ee663532fc3d203c5c"
+  }
+  index: 7
+  text: "{{GM}}Blaine tries to wave him off.{{/GM}}\n\nIt\'s fine. I can still deck if I need to."
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6d872663532ca68071468"
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a707663532fc3d203c72"
+  }
+  index: 8
+  text: "Blaine."
+  branches {
+    responseText: ""
+    nextNodeIndex: 9
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6dcba663532ca6807146a"
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a714663532fc3d203c75"
+  }
+  index: 9
+  text: "No, it\'s really fine. Got clipped climbing into the air vents. It looks worse than it is. Mike patched me up on the spot, and--"
+  branches {
+    responseText: ""
+    nextNodeIndex: 10
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6d872663532ca68071468"
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a72b663532fc3d203c8f"
+  }
+  index: 10
+  text: "{{GM}}Kurt glares. His voice goes tight and impatient.{{/GM}}\n\nBlaine."
+  branches {
+    responseText: ""
+    nextNodeIndex: 11
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6dcba663532ca6807146a"
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a738663532fc3d203c92"
+  }
+  index: 11
+  text: "Kurt grabs their old, battered medkit from underneath the bed. It\'s seen better days. It\'s seen worse days, too."
+  branches {
+    responseText: ""
+    nextNodeIndex: 12
+  }
+  nodeType: ConversationNodeType_GM_Voice
+  actions {
+    ops {
+      functionName: "Play Animation From Manifest"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53d6dcba663532ca6807146a"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Animation)"
+          args {
+            string_value: "Seattle:General/crouch_idle"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a74a663532fc3d203cb0"
+  }
+  index: 12
+  text: "{{GM}}Kurt peels back the bandages, so that he can get a better look at the damage.\n\nIt\'s a shallow cut, but a wide one. There\'s still the bright red of fresh blood mixed in with the darker browns of the dried stuff. Kurt slathers on some medigel before finding some new gauze to wrap it up again.{{/GM}}\n\nBut you\'re right, it\'s not that bad."
+  branches {
+    responseText: ""
+    nextNodeIndex: 13
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6dcba663532ca6807146a"
+  }
+  actions {
+    ops {
+      functionName: "Play Animation From Manifest"
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53d6dcba663532ca6807146a"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Animation)"
+          args {
+            string_value: "Seattle:General/standing_interact"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "53d9a796663532fc3d203cd0"
+  }
+  index: 13
+  text: "See? I told you."
+  branches {
+    responseText: ""
+    nextNodeIndex: 14
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6d872663532ca68071468"
+  }
+  actions {
+    ops {
+      functionName: "Heal Actor"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "53d6d872663532ca68071468"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        int_value: 10
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "HPOrAP"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53d6d872663532ca68071468"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "relaxed"
+          }
+          args {
+            string_value: "calm"
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "53dc3caa663532e20fb52e85"
+  }
+  index: 14
+  text: "{{GM}}This is also one of those arguments they\'ve had before. Kurt doesn\'t want to have this one again, either.{{/GM}}\n\nJust-- Just be careful out there."
+  branches {
+    responseText: ""
+    nextNodeIndex: 15
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6dcba663532ca6807146a"
+  }
+}
+nodes {
+  idRef {
+    id: "53dc3caa663532e20fb52e88"
+  }
+  index: 15
+  text: "{{GM}}Blaine\'s smile is sweet, slightly dopey.{{/GM}}\n\nOf course. You know the same goes for you, too, right?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 16
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6d872663532ca68071468"
+  }
+}
+nodes {
+  idRef {
+    id: "53dc3caa663532e20fb52e8b"
+  }
+  index: 16
+  text: "Yeah.\n\n{{GM}}He can\'t quite stifle his yawn.{{/GM}}"
+  branches {
+    responseText: ""
+    nextNodeIndex: 17
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6dcba663532ca6807146a"
+  }
+}
+nodes {
+  idRef {
+    id: "53dc3caa663532e20fb52e8e"
+  }
+  index: 17
+  text: "Come on. Let\'s get some sleep. Tomorrow\'s another day and all of that."
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53d6d872663532ca68071468"
+  }
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 0
+}
