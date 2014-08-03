@@ -554,6 +554,9 @@ characters {
     equipment {
       prefab_name: "Berlin_Player_DeckerJacket"
     }
+    equipment {
+      prefab_name: "CyberdeckKraftwerk1"
+    }
     team_id: "Civilians"
     char_name: "Blaine Anderson"
     pc_spawn_number: -1

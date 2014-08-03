@@ -435,6 +435,138 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53de3a6b663532e179085dd8"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "preen"
+          }
+          args {
+            string_value: "preen"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53de39f2663532e179085dd7"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "talking"
+          }
+          args {
+            string_value: "talking"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53de4494663532e179085ddd"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "leaning"
+          }
+          args {
+            string_value: "leaning"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53de4405663532e179085ddc"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "flirty"
+          }
+          args {
+            string_value: "flirty"
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -680,11 +812,11 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -8
+    x: -1
     y: 0
     z: -2
   }
-  orientation: ORIENTATION_E
+  orientation: ORIENTATION_S
   idRef {
     id: "53de394c663532e179085dd5"
   }
@@ -766,7 +898,7 @@ characters {
       prefab_name: "Spell Slow 1"
     }
     team_id: "Civilians"
-    char_name: "New Actor"
+    char_name: "TableDwarf"
     pc_spawn_number: -1
     hiring_type: HiringType_Hireable
     karma: 1
@@ -784,6 +916,7 @@ characters {
     z: 0
   }
   orientation: ORIENTATION_S
+  displayName: "PoolOrk"
   idRef {
     id: "53de39f2663532e179085dd7"
   }
@@ -932,7 +1065,7 @@ characters {
       prefab_name: "Outfit_Corporate Salaryman"
     }
     team_id: "Civilians"
-    char_name: "New Actor"
+    char_name: "PoolHuman"
     pc_spawn_number: -1
     portrait_code_override: "s6h4b1"
     karma: 6
@@ -1037,6 +1170,103 @@ characters {
     portrait {
       filename: "pc_humanfemale_05_goth"
     }
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -13
+    y: 0
+    z: 9
+  }
+  orientation: ORIENTATION_W
+  idRef {
+    id: "53de4405663532e179085ddc"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Standard/TrollFemaleDetective"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Non-Combatant"
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "OrkBar"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -13
+    y: 0
+    z: 8
+  }
+  orientation: ORIENTATION_S
+  displayName: "ElfBusinessMan"
+  idRef {
+    id: "53de4494663532e179085ddd"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Berlin:Business/HumanMaleBusinessMan"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Non-Combatant"
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "ElfBusinessMan"
+    pc_spawn_number: -1
     karma: 6
   }
 }
