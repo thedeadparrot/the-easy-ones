@@ -7,7 +7,7 @@ nodes {
     id: "53d773b666353279136af6a8"
   }
   index: 0
-  text: "The apartment Kurt shares with Blaine is nothing to write home about. Their hovel (because that\'s all it could be called) is tiny and dirty and cramped, the worst of what Bergen Beach has to offer."
+  text: "The apartment Kurt shares with Blaine is nothing to write home about. Their hovel (because that\'s all it could be called) is tiny and dirty and cramped, the worst of what Brooklyn has to offer."
   branches {
     responseText: ""
     nextNodeIndex: 1

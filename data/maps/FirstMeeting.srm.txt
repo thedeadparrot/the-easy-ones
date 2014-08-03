@@ -1,7 +1,7 @@
-minX: -25
-minZ: -52
-numX: 40
-numZ: 75
+minX: -27
+minZ: -73
+numX: 42
+numZ: 96
 props {
   name: "diveBar_floor_wood01"
   gridPoint {
@@ -3078,9 +3078,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -3214,9 +3214,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -3224,9 +3224,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3237,9 +3237,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3250,9 +3250,9 @@ props {
 props {
   name: "factory_floor_walkwayPlate02"
   gridPoint {
-    x: -5
+    x: -7
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -3260,9 +3260,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
-    z: -36
+    z: -57
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3273,9 +3273,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
-    z: -34
+    z: -55
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3286,9 +3286,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
-    z: -32
+    z: -53
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3299,9 +3299,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
-    z: -42
+    z: -63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3312,9 +3312,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
-    z: -40
+    z: -61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3325,9 +3325,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
-    z: -38
+    z: -59
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3377,9 +3377,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -33
+    z: -54
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3390,9 +3390,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -33
+    z: -54
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3403,9 +3403,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3416,9 +3416,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3429,9 +3429,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3442,9 +3442,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3455,9 +3455,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3468,9 +3468,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3504,9 +3504,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3517,9 +3517,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3543,9 +3543,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -14
+    x: -16
     y: 3
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3556,9 +3556,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3569,9 +3569,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3582,9 +3582,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -16
+    x: -18
     y: 3
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3595,9 +3595,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -22
+    x: -24
     y: 3
-    z: -51.9
+    z: -72.9
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3608,9 +3608,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -51.9
+    z: -72.9
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3621,9 +3621,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -20
+    x: -22
     y: 2.9
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3634,9 +3634,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -22.3
+    x: -24.3
     y: 0
-    z: -51.9
+    z: -72.9
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3647,9 +3647,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3660,9 +3660,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -18
+    x: -20
     y: 3
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3673,9 +3673,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -10
+    x: -12
     y: 3
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3686,9 +3686,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -12
+    x: -14
     y: 3
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3699,9 +3699,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -5
+    x: -7
     y: 0
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3712,9 +3712,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -8
+    x: -10
     y: 3
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3725,9 +3725,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -6
+    x: -8
     y: 3
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3738,9 +3738,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3751,9 +3751,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3764,9 +3764,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3777,9 +3777,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3790,9 +3790,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3803,9 +3803,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3816,9 +3816,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3829,9 +3829,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3842,9 +3842,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3855,9 +3855,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3868,9 +3868,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3881,9 +3881,9 @@ props {
 props {
   name: "factory_floor_danceFloor"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3894,9 +3894,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
-    z: -48
+    z: -69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3907,9 +3907,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
-    z: -46
+    z: -67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3920,9 +3920,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
-    z: -44
+    z: -65
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3933,9 +3933,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -4.2
+    x: -6.2
     y: 3
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3946,9 +3946,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -5
+    x: -7
     y: 3
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -3959,9 +3959,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -2.9
+    x: -4.9
     y: 0
-    z: -51.9
+    z: -72.9
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3972,9 +3972,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
-    z: -50
+    z: -71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3985,9 +3985,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -3998,9 +3998,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4011,9 +4011,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge01Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -50
+    z: -71
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4024,9 +4024,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4037,9 +4037,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -48
+    z: -69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4050,9 +4050,9 @@ props {
 props {
   name: "diveBar_wall_brickConnectorTop"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -4060,9 +4060,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -23.3
+    x: -25.3
     y: 3
-    z: -51.9
+    z: -72.9
   }
   orientation: ORIENTATION_E
   idRef {
@@ -4073,9 +4073,9 @@ props {
 props {
   name: "diveBar_wall_brickConnectorTop"
   gridPoint {
-    x: -24
+    x: -26
     y: 3
-    z: -51.9
+    z: -72.9
   }
   orientation: ORIENTATION_W
   idRef {
@@ -4086,9 +4086,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -9
+    x: -11
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -4096,9 +4096,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -9
+    x: -11
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4109,9 +4109,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4122,9 +4122,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4135,9 +4135,9 @@ props {
 props {
   name: "factory_floor_panel01"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -4145,9 +4145,9 @@ props {
 props {
   name: "factory_floor_panel01"
   gridPoint {
-    x: -9
+    x: -11
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4158,9 +4158,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4171,9 +4171,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4184,9 +4184,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4197,9 +4197,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4292,9 +4292,9 @@ props {
 props {
   name: "factory_floor_railEnd01"
   gridPoint {
-    x: -22.5
+    x: -24.5
     y: 3
-    z: -40.8
+    z: -61.8
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4305,9 +4305,9 @@ props {
 props {
   name: "factory_floor_railMid"
   gridPoint {
-    x: -21.15
+    x: -23.15
     y: 3
-    z: -38.6
+    z: -59.6
   }
   orientation: ORIENTATION_W
   idRef {
@@ -4318,9 +4318,9 @@ props {
 props {
   name: "factory_floor_railMid"
   gridPoint {
-    x: -21.15
+    x: -23.15
     y: 3
-    z: -36.6
+    z: -57.6
   }
   orientation: ORIENTATION_W
   idRef {
@@ -4331,9 +4331,9 @@ props {
 props {
   name: "factory_floor_railEnd02"
   gridPoint {
-    x: -22.3
+    x: -24.3
     y: 3.2
-    z: -34.7
+    z: -55.7
   }
   orientation: ORIENTATION_W
   lod: 0
@@ -4341,9 +4341,9 @@ props {
 props {
   name: "factory_floor_railMid"
   gridPoint {
-    x: -21.099998
+    x: -23.099998
     y: 3
-    z: -39.6
+    z: -60.6
   }
   orientation: ORIENTATION_W
   idRef {
@@ -4354,9 +4354,9 @@ props {
 props {
   name: "factory_floor_railMid"
   gridPoint {
-    x: -21.099998
+    x: -23.099998
     y: 3
-    z: -44.6
+    z: -65.6
   }
   orientation: ORIENTATION_W
   idRef {
@@ -4367,9 +4367,9 @@ props {
 props {
   name: "factory_floor_railMid"
   gridPoint {
-    x: -21.099998
+    x: -23.099998
     y: 3
-    z: -43.6
+    z: -64.6
   }
   orientation: ORIENTATION_W
   idRef {
@@ -4380,9 +4380,9 @@ props {
 props {
   name: "factory_floor_railEnd02"
   gridPoint {
-    x: -22.5
+    x: -24.5
     y: 3
-    z: -42.2
+    z: -63.2
   }
   orientation: ORIENTATION_W
   idRef {
@@ -4419,9 +4419,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -9
+    x: -11
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4432,9 +4432,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4445,9 +4445,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4458,9 +4458,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -9
+    x: -11
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4471,9 +4471,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4484,9 +4484,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4497,9 +4497,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4510,9 +4510,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4523,9 +4523,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4536,9 +4536,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -23
+    x: -25
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4549,9 +4549,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -23
+    x: -25
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4562,9 +4562,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4575,9 +4575,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4588,9 +4588,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -23
+    x: -25
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4601,9 +4601,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -23
+    x: -25
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4614,9 +4614,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4627,9 +4627,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4640,9 +4640,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4653,9 +4653,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4666,9 +4666,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4679,9 +4679,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4692,9 +4692,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4705,9 +4705,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4718,9 +4718,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4731,9 +4731,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4744,9 +4744,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4757,9 +4757,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4770,9 +4770,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4783,9 +4783,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4796,9 +4796,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4809,9 +4809,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4822,9 +4822,9 @@ props {
 props {
   name: "factory_floor_plating01"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4835,9 +4835,9 @@ props {
 props {
   name: "factory_floor_panel01"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4848,9 +4848,9 @@ props {
 props {
   name: "factory_floor_panel01"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4861,9 +4861,9 @@ props {
 props {
   name: "factory_floor_panel01"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4874,9 +4874,9 @@ props {
 props {
   name: "factory_floor_panel01"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4887,9 +4887,9 @@ props {
 props {
   name: "factory_floor_panel01"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4900,9 +4900,9 @@ props {
 props {
   name: "factory_floor_panel01"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4913,9 +4913,9 @@ props {
 props {
   name: "factory_floor_panel01"
   gridPoint {
-    x: -23
+    x: -25
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4926,9 +4926,9 @@ props {
 props {
   name: "factory_floor_panel01"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4939,9 +4939,9 @@ props {
 props {
   name: "factory_floor_windowedPanel01"
   gridPoint {
-    x: -9
+    x: -11
     y: 0
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -4949,9 +4949,9 @@ props {
 props {
   name: "factory_floor_windowedPanel02"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -4959,9 +4959,9 @@ props {
 props {
   name: "factory_floor_windowedPanel03"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -4969,9 +4969,9 @@ props {
 props {
   name: "factory_floor_windowedPanel04"
   gridPoint {
-    x: -9
+    x: -11
     y: 0
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -4979,9 +4979,9 @@ props {
 props {
   name: "factory_floor_windowedPanel02"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -4992,9 +4992,9 @@ props {
 props {
   name: "factory_floor_windowedPanel01"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5005,9 +5005,9 @@ props {
 props {
   name: "factory_floor_windowedPanel04"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5018,9 +5018,9 @@ props {
 props {
   name: "factory_floor_windowedPanel03"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5031,9 +5031,9 @@ props {
 props {
   name: "factory_floor_windowedPanel02"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5044,9 +5044,9 @@ props {
 props {
   name: "factory_floor_windowedPanel01"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5057,9 +5057,9 @@ props {
 props {
   name: "factory_floor_windowedPanel04"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5070,9 +5070,9 @@ props {
 props {
   name: "factory_floor_windowedPanel03"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5083,9 +5083,9 @@ props {
 props {
   name: "factory_floor_windowedPanel02"
   gridPoint {
-    x: -23
+    x: -25
     y: 0
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5096,9 +5096,9 @@ props {
 props {
   name: "factory_floor_windowedPanel01"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5109,9 +5109,9 @@ props {
 props {
   name: "factory_floor_windowedPanel04"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5122,9 +5122,9 @@ props {
 props {
   name: "factory_floor_windowedPanel03"
   gridPoint {
-    x: -23
+    x: -25
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5135,9 +5135,9 @@ props {
 props {
   name: "factory_floor_windowedPanel02"
   gridPoint {
-    x: -23
+    x: -25
     y: 0
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5148,9 +5148,9 @@ props {
 props {
   name: "factory_floor_windowedPanel01"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5161,9 +5161,9 @@ props {
 props {
   name: "factory_floor_windowedPanel04"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5174,9 +5174,9 @@ props {
 props {
   name: "factory_floor_windowedPanel03"
   gridPoint {
-    x: -23
+    x: -25
     y: 0
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5187,9 +5187,9 @@ props {
 props {
   name: "factory_floor_windowedPanel02"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5200,9 +5200,9 @@ props {
 props {
   name: "factory_floor_windowedPanel01"
   gridPoint {
-    x: -9
+    x: -11
     y: 0
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5213,9 +5213,9 @@ props {
 props {
   name: "factory_floor_windowedPanel04"
   gridPoint {
-    x: -9
+    x: -11
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5226,9 +5226,9 @@ props {
 props {
   name: "factory_floor_windowedPanel03"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5252,9 +5252,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel02"
   gridPoint {
-    x: -23.6
+    x: -25.6
     y: 3
-    z: -40
+    z: -61
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -5262,9 +5262,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel04"
   gridPoint {
-    x: -23.6
+    x: -25.6
     y: 3
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -5272,9 +5272,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel04"
   gridPoint {
-    x: -23.5
+    x: -25.5
     y: 3
-    z: -34
+    z: -55
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -5321,9 +5321,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel02"
   gridPoint {
-    x: -23.6
+    x: -25.6
     y: 3
-    z: -46
+    z: -67
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5334,9 +5334,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel04"
   gridPoint {
-    x: -23.6
+    x: -25.6
     y: 3
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5347,9 +5347,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel04"
   gridPoint {
-    x: -23.5
+    x: -25.5
     y: 3
-    z: -33.3
+    z: -54.3
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5360,9 +5360,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel04"
   gridPoint {
-    x: -17.5
+    x: -19.5
     y: 3
-    z: -33.3
+    z: -54.3
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5373,9 +5373,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel02"
   gridPoint {
-    x: -20.5
+    x: -22.5
     y: 3
-    z: -33.3
+    z: -54.3
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5386,9 +5386,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel04"
   gridPoint {
-    x: -14.5
+    x: -16.5
     y: 3
-    z: -33.3
+    z: -54.3
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5399,9 +5399,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel04"
   gridPoint {
-    x: -11.5
+    x: -13.5
     y: 3
-    z: -33.3
+    z: -54.3
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5412,9 +5412,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel04"
   gridPoint {
-    x: -5.2000003
+    x: -7.2000003
     y: 3
-    z: -33.3
+    z: -54.3
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5425,9 +5425,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel04"
   gridPoint {
-    x: -6.5000005
+    x: -8.5
     y: 3
-    z: -33.3
+    z: -54.3
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5438,9 +5438,9 @@ props {
 props {
   name: "diveBar_floor_3x3panel04"
   gridPoint {
-    x: -8.5
+    x: -10.5
     y: 3
-    z: -33.3
+    z: -54.3
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5712,9 +5712,9 @@ props {
 props {
   name: "factory_furniture_djTable"
   gridPoint {
-    x: -13.9
+    x: -15.9
     y: 3
-    z: -32.3
+    z: -53.3
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -5722,9 +5722,9 @@ props {
 props {
   name: "factory_furniture_djTableLight"
   gridPoint {
-    x: -14.2
+    x: -16.2
     y: 3
-    z: -32.3
+    z: -53.3
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -5732,9 +5732,9 @@ props {
 props {
   name: "factory_tech_speaker02"
   gridPoint {
-    x: -21
+    x: -23
     y: 4
-    z: -41
+    z: -62
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5745,9 +5745,9 @@ props {
 props {
   name: "factory_tech_speaker01"
   gridPoint {
-    x: -22.9
+    x: -24.9
     y: 3
-    z: -41.7
+    z: -62.7
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -5755,9 +5755,9 @@ props {
 props {
   name: "factory_tech_speaker01"
   gridPoint {
-    x: -22.9
+    x: -24.9
     y: 3
-    z: -35.7
+    z: -56.7
   }
   orientation: ORIENTATION_S
   idRef {
@@ -5768,9 +5768,9 @@ props {
 props {
   name: "tenements_clutter_woodenCrates"
   gridPoint {
-    x: -23
+    x: -25
     y: 3
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -5778,9 +5778,9 @@ props {
 props {
   name: "tenements_clutter_woodenCrates"
   gridPoint {
-    x: -18
+    x: -20
     y: 3
-    z: -32
+    z: -53
   }
   orientation: ORIENTATION_E
   idRef {
@@ -5938,19 +5938,6 @@ props {
   }
   orientation: ORIENTATION_E
   idRef {
-    id: "53dcf6d5663532e20fb530c8"
-  }
-  lod: 0
-}
-props {
-  name: "diveBar_wall_divider02"
-  gridPoint {
-    x: 0
-    y: 0
-    z: -3
-  }
-  orientation: ORIENTATION_E
-  idRef {
     id: "53dcf6d9663532e20fb530c9"
   }
   lod: 0
@@ -5971,7 +5958,7 @@ props {
 props {
   name: "diveBar_tech_jukeBox"
   gridPoint {
-    x: -3
+    x: -5
     y: 0
     z: -6.5
   }
@@ -6009,9 +5996,9 @@ props {
 props {
   name: "diveBar_clutter_woodenBarrels02"
   gridPoint {
-    x: -23
+    x: -25
     y: 3
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -6019,9 +6006,9 @@ props {
 props {
   name: "diveBar_furniture_boothTable02"
   gridPoint {
-    x: -15
+    x: -17
     y: 3.9
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -6029,9 +6016,9 @@ props {
 props {
   name: "diveBar_furniture_boothTable02"
   gridPoint {
-    x: -4
+    x: -6
     y: 3.9
-    z: -32
+    z: -53
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6042,9 +6029,9 @@ props {
 props {
   name: "diveBar_storage_cardboardBoxes"
   gridPoint {
-    x: -21
+    x: -23
     y: 3.4
-    z: -35
+    z: -56
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -6052,9 +6039,9 @@ props {
 props {
   name: "diveBar_storage_box01"
   gridPoint {
-    x: -22
+    x: -24
     y: 3.8
-    z: -39.2
+    z: -60.2
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6065,7 +6052,7 @@ props {
 props {
   name: "diveBar_tech_pinballMachine01"
   gridPoint {
-    x: -1
+    x: -3
     y: 0
     z: -6
   }
@@ -6075,9 +6062,9 @@ props {
 props {
   name: "diveBar_clutter_cocktail05"
   gridPoint {
-    x: -4
+    x: -6
     y: 3.9
-    z: -31.900002
+    z: -52.9
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -6161,9 +6148,9 @@ props {
 props {
   name: "factory_lighting_spotlights01"
   gridPoint {
-    x: -21
+    x: -23
     y: 2.7
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6174,9 +6161,9 @@ props {
 props {
   name: "factory_lighting_spotlights01"
   gridPoint {
-    x: -21
+    x: -23
     y: 2.7
-    z: -38
+    z: -59
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6187,9 +6174,9 @@ props {
 props {
   name: "factory_lighting_spotlights01"
   gridPoint {
-    x: -21
+    x: -23
     y: 2.7
-    z: -42
+    z: -63
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6317,9 +6304,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -4
+    x: -6
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6330,9 +6317,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -6
+    x: -8
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6343,9 +6330,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -10
+    x: -12
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6356,9 +6343,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -8
+    x: -10
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6369,9 +6356,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -14
+    x: -16
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6382,9 +6369,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -12
+    x: -14
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6395,9 +6382,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6408,9 +6395,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -15
+    x: -17
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6421,9 +6408,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6434,9 +6421,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6447,9 +6434,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -24
+    x: -26
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6460,9 +6447,9 @@ props {
 props {
   name: "secretLab_wall_fill"
   gridPoint {
-    x: -22
+    x: -24
     y: 0
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6499,9 +6486,9 @@ props {
 props {
   name: "sleekOffice_wall_stairwell01"
   gridPoint {
-    x: -24.2
+    x: -26.2
     y: 0
-    z: -52.3
+    z: -73.3
   }
   orientation: ORIENTATION_S
   displayName: "Prop_UpStairs"
@@ -6513,9 +6500,9 @@ props {
 props {
   name: "factory_floor_railEnd01"
   gridPoint {
-    x: -22.5
+    x: -24.5
     y: 3
-    z: -45.8
+    z: -66.8
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6526,9 +6513,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -9
+    x: -11
     y: 0
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6539,9 +6526,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -17
+    x: -19
     y: 0
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6552,9 +6539,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -51.9
+    z: -72.9
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6565,9 +6552,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -51.9
+    z: -72.9
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6578,9 +6565,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Top"
   gridPoint {
-    x: -25
+    x: -27
     y: 3
-    z: -48
+    z: -69
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6591,9 +6578,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6604,9 +6591,9 @@ props {
 props {
   name: "system_invisible_nonsolidProp"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -6624,7 +6611,7 @@ props {
 props {
   name: "diveBar_wallDecor_dartboard01"
   gridPoint {
-    x: -5.1
+    x: -1.4999999
     y: 1.4
     z: -7
   }
@@ -6654,9 +6641,9 @@ props {
 props {
   name: "diveBar_wall_guardRail01"
   gridPoint {
-    x: -20
+    x: -22
     y: 3
-    z: -34
+    z: -55
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -6664,9 +6651,9 @@ props {
 props {
   name: "diveBar_wall_guardRail02"
   gridPoint {
-    x: -18
+    x: -20
     y: 3
-    z: -34
+    z: -55
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -6674,9 +6661,9 @@ props {
 props {
   name: "diveBar_wall_guardRail01"
   gridPoint {
-    x: -15
+    x: -17
     y: 3
-    z: -34
+    z: -55
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6687,9 +6674,9 @@ props {
 props {
   name: "diveBar_wall_guardRail02"
   gridPoint {
-    x: -12
+    x: -14
     y: 3
-    z: -34
+    z: -55
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6700,9 +6687,9 @@ props {
 props {
   name: "diveBar_wall_guardRail01"
   gridPoint {
-    x: -9
+    x: -11
     y: 3
-    z: -34
+    z: -55
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6713,9 +6700,9 @@ props {
 props {
   name: "diveBar_wall_guardRail02"
   gridPoint {
-    x: -6
+    x: -8
     y: 3
-    z: -34
+    z: -55
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6736,9 +6723,9 @@ props {
 props {
   name: "factory_wallDecoration_ledDisplay01"
   gridPoint {
-    x: -14
+    x: -16
     y: 3.9
-    z: -49.8
+    z: -70.8
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -6746,9 +6733,9 @@ props {
 props {
   name: "factory_wallDecoration_ledDisplay01"
   gridPoint {
-    x: -7
+    x: -9
     y: 3.9
-    z: -49.8
+    z: -70.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6759,9 +6746,9 @@ props {
 props {
   name: "factory_wallDecoration_ledDisplay01"
   gridPoint {
-    x: -22
+    x: -24
     y: 3.9
-    z: -49.8
+    z: -70.8
   }
   orientation: ORIENTATION_E
   idRef {
@@ -6772,9 +6759,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -6782,9 +6769,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6795,9 +6782,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6808,9 +6795,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6821,9 +6808,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6834,9 +6821,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6847,9 +6834,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6860,9 +6847,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -45
+    z: -66
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6873,9 +6860,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6886,9 +6873,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6899,9 +6886,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6912,9 +6899,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6925,9 +6912,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6938,9 +6925,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -39
+    z: -60
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6951,9 +6938,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -11
+    x: -13
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6964,9 +6951,9 @@ props {
 props {
   name: "factory_groundDecoration_danceFloor_lights"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -6977,9 +6964,9 @@ props {
 props {
   name: "factory_wallDecoration_ledDisplay01Light"
   gridPoint {
-    x: -22.3
+    x: -24.3
     y: 3.7
-    z: -50.1
+    z: -71.1
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -6987,9 +6974,9 @@ props {
 props {
   name: "factory_wallDecoration_ledDisplay01Light"
   gridPoint {
-    x: -14.299999
+    x: -16.3
     y: 3.7
-    z: -50.1
+    z: -71.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -7000,9 +6987,9 @@ props {
 props {
   name: "factory_wallDecoration_ledDisplay01Light"
   gridPoint {
-    x: -7.2999992
+    x: -9.2999992
     y: 3.7
-    z: -50.1
+    z: -71.1
   }
   orientation: ORIENTATION_E
   idRef {
@@ -7013,9 +7000,9 @@ props {
 props {
   name: "haven_wallDecoration_graffiti17"
   gridPoint {
-    x: -12
+    x: -14
     y: 0.9
-    z: -51.3
+    z: -72.3
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7023,9 +7010,9 @@ props {
 props {
   name: "mitte_wallDecoration_graffiti10"
   gridPoint {
-    x: -20.9
+    x: -22.9
     y: 1.1
-    z: -50.3
+    z: -71.3
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7033,9 +7020,9 @@ props {
 props {
   name: "haven_wallDecoration_graffiti09"
   gridPoint {
-    x: -5.7
+    x: -7.7
     y: 0.5
-    z: -50.8
+    z: -71.8
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7043,9 +7030,9 @@ props {
 props {
   name: "haven_wallDecoration_graffiti08"
   gridPoint {
-    x: -17.6
+    x: -19.6
     y: 2.3
-    z: -50.5
+    z: -71.5
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7053,9 +7040,9 @@ props {
 props {
   name: "haven_wallDecoration_graffiti02"
   gridPoint {
-    x: -15
+    x: -17
     y: 0.7
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7063,9 +7050,9 @@ props {
 props {
   name: "haven_wallDecoration_graffiti10"
   gridPoint {
-    x: -8.7
+    x: -10.7
     y: 0.5
-    z: -50.7
+    z: -71.7
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7073,9 +7060,9 @@ props {
 props {
   name: "haven_wallDecoration_graffiti13"
   gridPoint {
-    x: -12.8
+    x: -14.8
     y: 0.7
-    z: -50.9
+    z: -71.9
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7083,9 +7070,9 @@ props {
 props {
   name: "mitte_wallDecoration_graffiti15"
   gridPoint {
-    x: -17.2
+    x: -19.2
     y: 0.9
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7093,9 +7080,9 @@ props {
 props {
   name: "mitte_wallDecoration_junkieGraffiti03"
   gridPoint {
-    x: -11.3
+    x: -13.3
     y: 0.8
-    z: -50.9
+    z: -71.9
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7103,9 +7090,9 @@ props {
 props {
   name: "barrens_decor_graffiti06"
   gridPoint {
-    x: -13.5
+    x: -15.5
     y: 1.4
-    z: -49.9
+    z: -70.9
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7113,9 +7100,9 @@ props {
 props {
   name: "barrens_decor_graffiti03"
   gridPoint {
-    x: -8
+    x: -10
     y: 0
-    z: -50
+    z: -71
   }
   orientation: ORIENTATION_E
   lod: 0
@@ -7163,26 +7150,6 @@ props {
   lod: 0
 }
 props {
-  name: "factory_furniture_lowerPrivateBoothCouchCorner"
-  gridPoint {
-    x: -22
-    y: 0
-    z: -42
-  }
-  orientation: ORIENTATION_S
-  lod: 0
-}
-props {
-  name: "factory_furniture_lowerPrivateBoothCouchCorner"
-  gridPoint {
-    x: -21
-    y: 0
-    z: -45
-  }
-  orientation: ORIENTATION_S
-  lod: 0
-}
-props {
   name: "barrens_street_taxiKiosk"
   gridPoint {
     x: -3
@@ -7195,9 +7162,9 @@ props {
 props {
   name: "factory_furniture_privateBoothCouchEdge"
   gridPoint {
-    x: -2
+    x: -4
     y: 4
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_N
   lod: 0
@@ -7205,9 +7172,9 @@ props {
 props {
   name: "factory_furniture_privateBoothCouchFront"
   gridPoint {
-    x: -2
+    x: -4
     y: 4
-    z: -30
+    z: -51
   }
   orientation: ORIENTATION_W
   lod: 0
@@ -7215,9 +7182,9 @@ props {
 props {
   name: "factory_furniture_privateBoothCouchEdge"
   gridPoint {
-    x: -3
+    x: -5
     y: 4
-    z: -30
+    z: -51
   }
   orientation: ORIENTATION_W
   idRef {
@@ -7228,9 +7195,9 @@ props {
 props {
   name: "factory_furniture_privateBoothCouchFront"
   gridPoint {
-    x: -6
+    x: -8
     y: 4
-    z: -30
+    z: -51
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7241,9 +7208,9 @@ props {
 props {
   name: "factory_furniture_privateBoothCouchEdge"
   gridPoint {
-    x: -4
+    x: -6
     y: 4
-    z: -30
+    z: -51
   }
   orientation: ORIENTATION_W
   idRef {
@@ -7254,9 +7221,9 @@ props {
 props {
   name: "factory_furniture_privateBoothCouchEdge"
   gridPoint {
-    x: -6
+    x: -8
     y: 4
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7267,9 +7234,9 @@ props {
 props {
   name: "factory_furniture_privateBoothCouchEdge"
   gridPoint {
-    x: -5
+    x: -7
     y: 4
-    z: -30
+    z: -51
   }
   orientation: ORIENTATION_W
   idRef {
@@ -7280,9 +7247,9 @@ props {
 props {
   name: "telestrianEstate_furniture_hallwayTable03"
   gridPoint {
-    x: -20
+    x: -22
     y: 4
-    z: -31
+    z: -52
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -7290,9 +7257,9 @@ props {
 props {
   name: "telestrianEstate_furniture_hallwayTable03"
   gridPoint {
-    x: -22
+    x: -24
     y: 4
-    z: -32
+    z: -53
   }
   orientation: ORIENTATION_E
   idRef {
@@ -7303,9 +7270,9 @@ props {
 props {
   name: "tenements_decor_elLights02"
   gridPoint {
-    x: -24
+    x: -26
     y: 2.5
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7316,9 +7283,9 @@ props {
 props {
   name: "tenements_decor_elLights02"
   gridPoint {
-    x: -24
+    x: -26
     y: 2.5
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7329,9 +7296,9 @@ props {
 props {
   name: "tenements_decor_elLights02"
   gridPoint {
-    x: -24
+    x: -26
     y: 2.5
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7383,9 +7350,9 @@ props {
 props {
   name: "system_gizmo_lightbulb"
   gridPoint {
-    x: -15
+    x: -17
     y: 2.1
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -7402,9 +7369,9 @@ props {
 props {
   name: "system_gizmo_lightbulb"
   gridPoint {
-    x: -22
+    x: -24
     y: 2.1
-    z: -52
+    z: -73
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7424,9 +7391,9 @@ props {
 props {
   name: "system_gizmo_lightbulb"
   gridPoint {
-    x: -8
+    x: -10
     y: 2.1
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7446,9 +7413,9 @@ props {
 props {
   name: "system_gizmo_lightbulb"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -47
+    z: -68
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -7465,9 +7432,9 @@ props {
 props {
   name: "system_gizmo_lightbulb"
   gridPoint {
-    x: -14
+    x: -16
     y: 1
-    z: -43
+    z: -64
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7487,9 +7454,9 @@ props {
 props {
   name: "system_gizmo_lightbulb"
   gridPoint {
-    x: -19
+    x: -21
     y: 0
-    z: -40
+    z: -61
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7552,9 +7519,9 @@ props {
 props {
   name: "diveBar_wall_brickEdge02Bottom"
   gridPoint {
-    x: -25
+    x: -27
     y: 0
-    z: -50.2
+    z: -71.2
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7565,9 +7532,9 @@ props {
 props {
   name: "system_invisible_nonsolidProp"
   gridPoint {
-    x: -23.5
+    x: -25.5
     y: 0.9
-    z: -51
+    z: -72
   }
   orientation: ORIENTATION_S
   displayName: "Prop_UpStairs"
@@ -7598,9 +7565,9 @@ props {
 props {
   name: "vfx_fx_dancingMan"
   gridPoint {
-    x: -16
+    x: -18
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_S
   properties {
@@ -7612,9 +7579,9 @@ props {
 props {
   name: "vfx_fx_dancingWoman"
   gridPoint {
-    x: -13
+    x: -18
     y: 0
-    z: -42
+    z: -66
   }
   orientation: ORIENTATION_S
   properties {
@@ -7656,9 +7623,9 @@ props {
 props {
   name: "vfx_fx_dancingMan"
   gridPoint {
-    x: -18
+    x: -20
     y: 0
-    z: -38
+    z: -59
   }
   orientation: ORIENTATION_S
   properties {
@@ -7673,9 +7640,9 @@ props {
 props {
   name: "vfx_fx_dancingWoman"
   gridPoint {
-    x: -8
+    x: -10
     y: 0
-    z: -49
+    z: -70
   }
   orientation: ORIENTATION_S
   properties {
@@ -7684,6 +7651,48 @@ props {
   }
   idRef {
     id: "53de764e663532e179085e35"
+  }
+  lod: 0
+}
+props {
+  name: "vfx_fx_SeatedFemaleBarPatronSouth"
+  gridPoint {
+    x: -8.2
+    y: 0.3
+    z: 9
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SeatedFemaleBarPatronSouth"
+  }
+  lod: 0
+}
+props {
+  name: "vfx_fx_SeatedMaleBarPatronSouth"
+  gridPoint {
+    x: -8.3
+    y: 3.7
+    z: -51.5
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SeatedMaleBarPatronSouth"
+  }
+  lod: 0
+}
+props {
+  name: "vfx_fx_SeatedFemaleBarPatronSouth"
+  gridPoint {
+    x: -8.2
+    y: 3.7
+    z: -52.2
+  }
+  orientation: ORIENTATION_S
+  properties {
+    property_id: "fxScript"
+    string_value: "SeatedFemaleBarPatronSouth"
   }
   lod: 0
 }

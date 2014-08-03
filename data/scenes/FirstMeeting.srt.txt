@@ -360,7 +360,7 @@ triggers {
   is_oneshot: true
 }
 triggers {
-  name: "mapInit"
+  name: "actorInit"
   events {
     ops {
       functionName: "On Map Start"
@@ -369,72 +369,6 @@ triggers {
   conditions {
   }
   actions {
-    ops {
-      functionName: "Set Retain Other Trigger"
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (Trigger)"
-          args {
-            string_value: "53dcfd8d663532e20fb530d8"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Set Retain Other Trigger"
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (Trigger)"
-          args {
-            string_value: "53dd0584663532e20fb530ff"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Set Retain Other Trigger"
-      args {
-        call_value {
-          functionName: "Get Preset Value (int)"
-          args {
-            string_value: "bool"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (Trigger)"
-          args {
-            string_value: "53dd0e65663532e20fb53111"
-          }
-        }
-      }
-    }
     ops {
       functionName: "Set Animation State Of Actor To Animation Modifier"
       args {
@@ -460,10 +394,10 @@ triggers {
         call_value {
           functionName: "Get Map Item (AnimationModifiers)"
           args {
-            string_value: "preen"
+            string_value: "examine"
           }
           args {
-            string_value: "preen"
+            string_value: "examine"
           }
         }
       }
@@ -658,10 +592,10 @@ triggers {
         call_value {
           functionName: "Get Map Item (AnimationModifiers)"
           args {
-            string_value: "junky"
+            string_value: "sexy"
           }
           args {
-            string_value: "junky"
+            string_value: "sexy"
           }
         }
       }
@@ -765,10 +699,219 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53debc4a663532a261cd66ec"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "sexy"
+          }
+          args {
+            string_value: "sexy"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53debc83663532a261cd66ed"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "sexy"
+          }
+          args {
+            string_value: "sexy"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53debc48663532a261cd66eb"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "mentalPatient_headbanging"
+          }
+          args {
+            string_value: "headBanging"
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
     id: "53dd216d663532e179085d2e"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "triggerInit"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Set Retain Other Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "53dcfd8d663532e20fb530d8"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Retain Other Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "53dd0584663532e20fb530ff"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Retain Other Trigger"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Trigger)"
+          args {
+            string_value: "53dd0e65663532e20fb53111"
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53de96df663532e179085e39"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "charInit"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Add Nuyen"
+      args {
+        int_value: 200
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53deb5dc663532e179085e51"
   }
   elseActions {
   }
@@ -865,8 +1008,8 @@ regions {
 regions {
   name: "DanceFloorTeleportRegion"
   position {
-    x: -22
-    y: -50
+    x: -24
+    y: -71
     width: -2
     height: 2
   }
@@ -909,8 +1052,8 @@ regions {
 regions {
   name: "DanceFloorRegion"
   position {
-    x: -1
-    y: -52
+    x: -3
+    y: -73
     width: -24
     height: 23
   }
@@ -1010,11 +1153,11 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -1
+    x: -9
     y: 0
-    z: -2
+    z: 0
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_N
   displayName: "TableDwarf"
   idRef {
     id: "53de394c663532e179085dd5"
@@ -1221,11 +1364,11 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -9
+    x: -3
     y: 0
-    z: 1
+    z: -4
   }
-  orientation: ORIENTATION_N
+  orientation: ORIENTATION_W
   idRef {
     id: "53de3a6b663532e179085dd8"
   }
@@ -1328,7 +1471,7 @@ characters {
     y: 0
     z: 6
   }
-  orientation: ORIENTATION_N
+  orientation: ORIENTATION_E
   idRef {
     id: "53de3c90663532e179085dda"
   }
@@ -1472,9 +1615,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -21
+    x: -23
     y: 0
-    z: -50
+    z: -71
   }
   orientation: ORIENTATION_E
   displayName: "Bouncer"
@@ -1523,7 +1666,7 @@ characters {
   gridPoint {
     x: -15
     y: 0
-    z: -4
+    z: 0
   }
   orientation: ORIENTATION_N
   displayName: "BusinessWoman"
@@ -1532,7 +1675,7 @@ characters {
   }
   lod: 0
   character_instance {
-    prefab_name: "Berlin:Business/HumanFemaleBusinessWoman"
+    prefab_name: "Berlin:Gangers/HumanFemaleBerlinGanger"
     character_sheet_id: "BaseCivilian"
     character_mod {
       stats {
@@ -1569,7 +1712,7 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -11
+    x: -12
     y: 0
     z: -4
   }
@@ -1665,11 +1808,11 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -13
+    x: -10
     y: 0
-    z: -45
+    z: -66
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_N
   displayName: "DanceHumanWoman"
   idRef {
     id: "53de721e663532e179085e33"
@@ -1714,9 +1857,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -18
+    x: -21
     y: 0
-    z: -40
+    z: -64
   }
   orientation: ORIENTATION_W
   idRef {
@@ -1762,9 +1905,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -38
+    z: -59
   }
   orientation: ORIENTATION_E
   displayName: "ElfBusinesWoman"
@@ -1811,9 +1954,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -7
+    x: -9
     y: 0
-    z: -37
+    z: -58
   }
   orientation: ORIENTATION_W
   displayName: "BusinessMan"
@@ -1848,6 +1991,151 @@ characters {
       specializations {
       }
       archetypeName: "Non-Combatant"
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -18
+    y: 0
+    z: -69
+  }
+  orientation: ORIENTATION_S
+  displayName: "BusinessManDanceFloor"
+  idRef {
+    id: "53debc48663532a261cd66eb"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Berlin:Business/HumanMaleBusinessMan"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Non-Combatant"
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -11
+    y: 0
+    z: -66
+  }
+  orientation: ORIENTATION_S
+  displayName: "DancingDwarf"
+  idRef {
+    id: "53debc4a663532a261cd66ec"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Berlin:Gangers/DwarfMaleBerlinGangerMohawk"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -14
+    y: 0
+    z: -62
+  }
+  orientation: ORIENTATION_E
+  displayName: "Dancing Fool"
+  idRef {
+    id: "53debc83663532a261cd66ed"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Punk/HumanMalePonyPunk"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
       vulnerabilities {
       }
     }
