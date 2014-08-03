@@ -536,7 +536,7 @@ regions {
   name: "DanceFloorTeleportRegion"
   position {
     x: -22
-    y: -49
+    y: -50
     width: -2
     height: 2
   }
@@ -680,23 +680,17 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -5
+    x: -8
     y: 0
-    z: -3
+    z: -2
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_E
   idRef {
-    id: "53de2bb0663532e179085dd0"
-  }
-  interactionRoot {
-    isEnabled: true
-    interactionRadius: 1
-    interactionIcon: InteractionIcon_ItemPickup
+    id: "53de394c663532e179085dd5"
   }
   lod: 0
   character_instance {
-    prefab_name: "Core/HumanMale"
-    character_sheet_id: "Lvl3_Merc_Human_Techmaster"
+    character_sheet_id: "Lvl1_Dwarf_Shaman"
     character_mod {
       stats {
         body: 0
@@ -750,58 +744,300 @@ characters {
         esp_control: 0
         drone_combat: 0
       }
-      archetypeName: "Guard - Protect"
+      archetypeName: "Non-Combatant"
       attitude: AttitudeAggressive
     }
     equipment {
-      prefab_name: "RiggerTrenchcoat"
+      prefab_name: "Pi 1 Fichetti Security 500"
     }
     equipment {
-      prefab_name: "ESP Kamikaze"
+      prefab_name: "Bound Air Spirit 1"
     }
     equipment {
-      prefab_name: "PR Killer 1"
+      prefab_name: "Bound Air Spirit 1"
     }
     equipment {
-      prefab_name: "PR Erosion 1"
+      prefab_name: "HealthPack"
     }
     equipment {
-      prefab_name: "PR Shield 1"
+      prefab_name: "Spell Haste 1"
     }
     equipment {
-      prefab_name: "DroneAttackB_Strato9"
-    }
-    equipment {
-      prefab_name: "Pi 2 Ares Predator (Smartlink)"
-    }
-    equipment {
-      prefab_name: "CyberdeckKraftwerk1"
-    }
-    equipment {
-      prefab_name: "ESP Assassin"
-    }
-    equipment {
-      prefab_name: "PR Blaster 2"
-    }
-    equipment {
-      prefab_name: "DroneRepairKit_med"
+      prefab_name: "Spell Slow 1"
     }
     team_id: "Civilians"
-    char_name: "Aruba"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+    hiring_type: HiringType_Hireable
+    karma: 1
+    hiring_cost_override: 900
+    hiring_set_randomizer: "dwarf_shaman"
+    hiring_tag: "Shaman"
+    id: "Lvl1_Dwarf_Shaman"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -13
+    y: 0
+    z: 0
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53de39f2663532e179085dd7"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Berlin:HavenCivilians/OrkMaleHavenCivilian_2"
+    character_sheet_id: "Lvl2_Merc_Ork_UrbanShaman"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        magic: 0
+        hp: 0
+        ap: 0
+        armor: 0
+        force: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+        ranged_combat: 0
+        close_combat: 0
+        throwing_weapons: 0
+        spellcasting: 0
+        decking: 0
+        conjuring: 0
+        spirit_summoning: 0
+        drone_control: 0
+        biotech: 0
+        dodge: 0
+        etiquette_corporate: 0
+        etiquette_security: 0
+        etiquette_gang: 0
+        etiquette_socialite: 0
+        chi_casting: 0
+        etiquette_shadowrunner: 0
+        etiquette_street: 0
+        etiquette_academic: 0
+      }
+      specializations {
+        pistol: 0
+        rifle: 0
+        shotgun: 0
+        smg: 0
+        edged: 0
+        unarmed: 0
+        spirit_control: 0
+        esp_control: 0
+        drone_combat: 0
+      }
+      archetypeName: "Non-Combatant"
+      attitude: AttitudeAggressive
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "ShamanUrban"
+    }
+    equipment {
+      prefab_name: "HealthPack"
+    }
+    equipment {
+      prefab_name: "Bound Air Spirit 2"
+    }
+    equipment {
+      prefab_name: "Bound Earth Spirit 2"
+    }
+    equipment {
+      prefab_name: "Bound Fire Spirit 1"
+    }
+    equipment {
+      prefab_name: "Spell Haste 1"
+    }
+    equipment {
+      prefab_name: "Spell Slow 1"
+    }
+    team_id: "Civilians"
+    char_name: "Kiluminati Alabrad"
     pc_spawn_number: -1
     hiring_type: HiringType_Hireable
     cyberware_jack: "Datajack"
-    cyberware_body: "Dermal Plating Mk 1"
     portrait {
-      filename: "Backer_HumanMale_JanRadersheidt"
+      filename: "Backer_OrkMale_BradleyMiller_KiluminatiAlabrad"
     }
-    description_bio: "The Network has trusted me as the avatar that will control the machines of this age."
-    karma: 3
-    hiring_cost_override: 1800
-    hiring_tag: "Techmaster"
+    description_bio: "The Network wanted a shaman that comes from the streets with a full command of spirits."
+    karma: 2
+    hiring_cost_override: 1500
+    hiring_tag: "Urban Shaman"
     is_backer: true
-    is_prop_character: true
-    id: "Lvl3_Merc_Human_Techmaster"
+    id: "Lvl2_Merc_Ork_UrbanShaman"
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -9
+    y: 0
+    z: 1
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "53de3a6b663532e179085dd8"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Extras/HumanMaleWorkingclassShirtSpiky"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Non-Combatant"
+      vulnerabilities {
+      }
+    }
+    equipment {
+      prefab_name: "Outfit_Corporate Salaryman"
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+    portrait_code_override: "s6h4b1"
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -15
+    y: 0
+    z: 4
+  }
+  orientation: ORIENTATION_S
+  idRef {
+    id: "53de3b34663532e179085dd9"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Extras/ElfFemaleFashionista"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Non-Combatant"
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "Bartender"
+    pc_spawn_number: -1
+    portrait {
+      filename: "pc_elffemale_10_punkdecker"
+    }
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -13
+    y: 0
+    z: 6
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "53de3c90663532e179085dda"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Extras/HumanFemaleJacketGoggles"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Non-Combatant"
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    pc_spawn_number: -1
+    portrait {
+      filename: "pc_humanfemale_05_goth"
+    }
+    karma: 6
   }
 }
 variables {

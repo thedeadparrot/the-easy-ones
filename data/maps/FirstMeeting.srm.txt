@@ -7385,7 +7385,7 @@ props {
   gridPoint {
     x: -15
     y: 2.1
-    z: -52
+    z: -51
   }
   orientation: ORIENTATION_S
   lod: 0
@@ -7426,7 +7426,7 @@ props {
   gridPoint {
     x: -8
     y: 2.1
-    z: -52
+    z: -51
   }
   orientation: ORIENTATION_S
   idRef {
@@ -7614,7 +7614,7 @@ props {
   gridPoint {
     x: -13
     y: 0
-    z: -49
+    z: -42
   }
   orientation: ORIENTATION_S
   properties {
@@ -7626,11 +7626,11 @@ props {
 props {
   name: "vfx_fx_dancingMan"
   gridPoint {
-    x: -11
+    x: -6
     y: 0
     z: -38
   }
-  orientation: ORIENTATION_E
+  orientation: ORIENTATION_S
   properties {
     property_id: "fxScript"
     string_value: "DancingManBar"

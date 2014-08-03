@@ -1,7 +1,0 @@
-id: "PhotoKurtBlaine"
-type: ItemType_QuestItem
-uirep {
-  name: "Photograph of Kurt and Blaine"
-}
-credentials: 0
-sorting_group: "Quest"
