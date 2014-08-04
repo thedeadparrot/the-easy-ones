@@ -749,7 +749,7 @@ triggers {
         call_value {
           functionName: "Get Map Item (Actor)"
           args {
-            string_value: "53debc83663532a261cd66ed"
+            string_value: "53decbf2663532a261cd66f6"
           }
         }
       }
@@ -794,6 +794,204 @@ triggers {
           }
           args {
             string_value: "headBanging"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53dec9b4663532a261cd66ee"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "sexy"
+          }
+          args {
+            string_value: "sexy"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53decbda663532a261cd66f4"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "sexy"
+          }
+          args {
+            string_value: "sexy"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53decafc663532a261cd66f2"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "sexy"
+          }
+          args {
+            string_value: "sexy"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53decad8663532a261cd66f0"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "sexy"
+          }
+          args {
+            string_value: "sexy"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53decbd8663532a261cd66f3"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "mentalPatient_headbanging"
+          }
+          args {
+            string_value: "headBanging"
+          }
+        }
+      }
+    }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53decbeb663532a261cd66f5"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "sexy"
+          }
+          args {
+            string_value: "sexy"
           }
         }
       }
@@ -1808,9 +2006,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -10
+    x: -9
     y: 0
-    z: -66
+    z: -68
   }
   orientation: ORIENTATION_N
   displayName: "DanceHumanWoman"
@@ -1857,9 +2055,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -21
+    x: -19
     y: 0
-    z: -64
+    z: -60
   }
   orientation: ORIENTATION_W
   idRef {
@@ -2052,9 +2250,9 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -11
+    x: -10
     y: 0
-    z: -66
+    z: -68
   }
   orientation: ORIENTATION_S
   displayName: "DancingDwarf"
@@ -2100,14 +2298,63 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -14
+    x: -16
     y: 0
-    z: -62
+    z: -66
+  }
+  orientation: ORIENTATION_E
+  displayName: "DancingOrk"
+  idRef {
+    id: "53dec9b4663532a261cd66ee"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Standard/OrkFemaleShaman"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Non-Combatant"
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "DancingOrkShaman"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -13
+    y: 0
+    z: -67
   }
   orientation: ORIENTATION_E
   displayName: "Dancing Fool"
   idRef {
-    id: "53debc83663532a261cd66ed"
+    id: "53decad8663532a261cd66f0"
   }
   lod: 0
   character_instance {
@@ -2145,6 +2392,254 @@ characters {
     karma: 6
   }
 }
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -13
+    y: 0
+    z: -62
+  }
+  orientation: ORIENTATION_N
+  idRef {
+    id: "53decafc663532a261cd66f2"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Wealthy/HumanMaleAutumn"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      archetypeName: "Non-Combatant"
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "DancingGuy"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -10
+    y: 0
+    z: -64
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "dancer"
+  displayName: "HumanisDancing"
+  idRef {
+    id: "53decbd8663532a261cd66f3"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Berlin:Humanis/HumanMaleHumanisFlattopBlonde"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "dancer"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -21
+    y: 0
+    z: -68
+  }
+  orientation: ORIENTATION_N
+  GeneralTags: "dancer"
+  displayName: "DancingBoyElfGanger"
+  idRef {
+    id: "53decbda663532a261cd66f4"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Gangers/ElfMaleGangerDreads"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "dancer"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -20
+    y: 0
+    z: -64
+  }
+  orientation: ORIENTATION_S
+  GeneralTags: "dancer"
+  displayName: "TrollDancing"
+  idRef {
+    id: "53decbeb663532a261cd66f5"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Standard/TrollMaleDecker"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "dancer"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -24
+    y: 0
+    z: -65
+  }
+  orientation: ORIENTATION_W
+  GeneralTags: "dancer"
+  displayName: "DancingGirlPunk"
+  idRef {
+    id: "53decbf2663532a261cd66f6"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Seattle:Punk/HumanFemaleSkirtPunk"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "dancer"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
 variables {
   bool_value: false
   variableref_value {
@@ -2162,9 +2657,9 @@ worldMapLocation {
 }
 mapName: "FirstMeeting"
 parentStory: ""
-scene_title: "New Scene"
+scene_title: "First Meeting"
 scene_subtitle: ""
-scene_synopsis: ""
+scene_synopsis: "That night, Kurt falls asleep to the faint glow of Blaine\'s cyberware. Blaine is cuddly tonight, even more cuddly than usual. He only gets likes when he\'s tired and overwhelmed. It\'s a distinctive thing, a Blaine thing. It\'s always the little things that surprise Kurt when it comes to being in love.\n\nThen again, the big things still have the capacity to surprise, too.\n\nHe never expected to meet Blaine when he did. The world had scraped him raw, hardened him up, and the thought that there could be something tender in his life, something gentle, was foreign to him.\n\nThey met on a routine mission, as by-the-book as they come.\n\nIt\'s always the easy ones that take you by surprise."
 scene_image: ""
 scene_continue_button_skip: false
 scene_restore_runner_health: false
@@ -2215,8 +2710,6 @@ team_affiliations {
 scene_dimensions {
   dimension_name: "Default"
 }
-character_roster {
-}
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {
   prereq_description: ""
@@ -2225,7 +2718,7 @@ scene_hiring_prerequisites {
 }
 hiring_slot_count: 0
 hiring_minimum_karma: 0
-hiring_maximum_karma: 25
+hiring_maximum_karma: 0
 roster_overrides {
 }
 use_hiring_cost_warning: false

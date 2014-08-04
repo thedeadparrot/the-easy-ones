@@ -7579,9 +7579,9 @@ props {
 props {
   name: "vfx_fx_dancingWoman"
   gridPoint {
-    x: -18
+    x: -16
     y: 0
-    z: -66
+    z: -60
   }
   orientation: ORIENTATION_S
   properties {
@@ -7623,9 +7623,9 @@ props {
 props {
   name: "vfx_fx_dancingMan"
   gridPoint {
-    x: -20
+    x: -22
     y: 0
-    z: -59
+    z: -60
   }
   orientation: ORIENTATION_S
   properties {
@@ -7640,7 +7640,7 @@ props {
 props {
   name: "vfx_fx_dancingWoman"
   gridPoint {
-    x: -10
+    x: -14
     y: 0
     z: -70
   }
