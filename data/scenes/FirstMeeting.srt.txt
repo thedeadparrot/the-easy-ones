@@ -881,39 +881,6 @@ triggers {
         call_value {
           functionName: "Get Map Item (Actor)"
           args {
-            string_value: "53decafc663532a261cd66f2"
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (AnimationModifiers)"
-          args {
-            string_value: "sexy"
-          }
-          args {
-            string_value: "sexy"
-          }
-        }
-      }
-    }
-    ops {
-      functionName: "Set Animation State Of Actor To Animation Modifier"
-      args {
-        call_value {
-          functionName: "Get Preset Value (string)"
-          args {
-            string_value: "AnimationState"
-          }
-          args {
-            int_value: 1
-          }
-        }
-      }
-      args {
-        call_value {
-          functionName: "Get Map Item (Actor)"
-          args {
             string_value: "53decad8663532a261cd66f0"
           }
         }
@@ -1105,6 +1072,30 @@ triggers {
       args {
         int_value: 200
       }
+    }
+    ops {
+      functionName: "Set Actor Display Name"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "53de6d34663532e179085e32"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        string_value: "Man"
+      }
+    }
+    ops {
+      functionName: "No Effect"
     }
   }
   isActive: true
@@ -1822,6 +1813,14 @@ characters {
   idRef {
     id: "53de555d663532e179085dde"
   }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 1
+    conversationPoint {
+      conversationID: "53deeb0c6635326869e994a1"
+      turnToFace: true
+    }
+  }
   lod: 0
   character_instance {
     prefab_name: "Seattle:Security/TrollMalesSecurityNVG"
@@ -1854,8 +1853,11 @@ characters {
       }
     }
     team_id: "Civilians"
-    char_name: "New Actor"
+    char_name: "Bouncer"
     pc_spawn_number: -1
+    portrait {
+      filename: "pc_trollmale_02a_cigar"
+    }
     karma: 6
   }
 }
@@ -2057,7 +2059,7 @@ characters {
   gridPoint {
     x: -19
     y: 0
-    z: -60
+    z: -64
   }
   orientation: ORIENTATION_W
   idRef {
@@ -2298,11 +2300,11 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -16
+    x: -13
     y: 0
-    z: -66
+    z: -62
   }
-  orientation: ORIENTATION_E
+  orientation: ORIENTATION_S
   displayName: "DancingOrk"
   idRef {
     id: "53dec9b4663532a261cd66ee"
@@ -2347,7 +2349,7 @@ characters {
 characters {
   name: "chars_icon_playerIcon"
   gridPoint {
-    x: -13
+    x: -15
     y: 0
     z: -67
   }
@@ -2388,54 +2390,6 @@ characters {
     }
     team_id: "Civilians"
     char_name: "New Actor"
-    pc_spawn_number: -1
-    karma: 6
-  }
-}
-characters {
-  name: "chars_icon_playerIcon"
-  gridPoint {
-    x: -13
-    y: 0
-    z: -62
-  }
-  orientation: ORIENTATION_N
-  idRef {
-    id: "53decafc663532a261cd66f2"
-  }
-  lod: 0
-  character_instance {
-    prefab_name: "Seattle:Wealthy/HumanMaleAutumn"
-    character_sheet_id: "BaseCivilian"
-    character_mod {
-      stats {
-        body: 0
-        quickness: 0
-        strength: 0
-        charisma: 0
-        intelligence: 0
-        willpower: 0
-        essence: 0
-        hp: 0
-        ap: 0
-        morale: 0
-        discipline: 0
-        awareness: 0
-        perception: 0
-        authority: 0
-        protect_tether_range: 0
-        move_speed: 0
-      }
-      skills {
-      }
-      specializations {
-      }
-      archetypeName: "Non-Combatant"
-      vulnerabilities {
-      }
-    }
-    team_id: "Civilians"
-    char_name: "DancingGuy"
     pc_spawn_number: -1
     karma: 6
   }
@@ -2545,7 +2499,7 @@ characters {
   gridPoint {
     x: -20
     y: 0
-    z: -64
+    z: -61
   }
   orientation: ORIENTATION_S
   GeneralTags: "dancer"
@@ -2709,6 +2663,8 @@ team_affiliations {
 }
 scene_dimensions {
   dimension_name: "Default"
+}
+character_roster {
 }
 show_hiring_screen_on_scene_load: false
 scene_hiring_prerequisites {

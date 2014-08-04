@@ -1,0 +1,52 @@
+idRef {
+  id: "53deeb0c6635326869e994a1"
+}
+ui_name: "s1_Bouncer"
+nodes {
+  idRef {
+    id: "53deeb1d6635326869e994a9"
+  }
+  index: 0
+  text: "Any trouble tonight?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53dad4c3663532fc3d204044"
+  }
+}
+nodes {
+  idRef {
+    id: "53deeb2f6635326869e994ae"
+  }
+  index: 1
+  text: "Why, are you looking to start some?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de555d663532e179085dde"
+  }
+}
+nodes {
+  idRef {
+    id: "53deeb596635326869e994c3"
+  }
+  index: 2
+  text: "Never mind."
+  branches {
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53dad4c3663532fc3d204044"
+  }
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 0
+}

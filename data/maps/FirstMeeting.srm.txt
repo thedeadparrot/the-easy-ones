@@ -1908,19 +1908,6 @@ props {
   lod: 0
 }
 props {
-  name: "diveBar_wall_brickEdge01Bottom"
-  gridPoint {
-    x: -12
-    y: 0
-    z: 12
-  }
-  orientation: ORIENTATION_E
-  idRef {
-    id: "53daf6cb663532fc3d2040b3"
-  }
-  lod: 0
-}
-props {
   name: "diveBar_floor_wood02"
   gridPoint {
     x: -10
@@ -5958,7 +5945,7 @@ props {
 props {
   name: "diveBar_tech_jukeBox"
   gridPoint {
-    x: -5
+    x: -10
     y: 0
     z: -6.5
   }
@@ -5976,7 +5963,7 @@ props {
 props {
   name: "diveBar_clutter_woodenBarrels02"
   gridPoint {
-    x: -10
+    x: -5
     y: 0
     z: -7
   }
