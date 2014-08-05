@@ -1095,12 +1095,139 @@ triggers {
       }
     }
     ops {
-      functionName: "No Effect"
+      functionName: "Set Actor Wander Range"
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Triggering Actor"
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        int_value: 3
+      }
     }
   }
   isActive: true
   idRef {
     id: "53deb5dc663532e179085e51"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "mapInit"
+  events {
+    ops {
+      functionName: "On Map Start"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Start Conversation"
+      args {
+        call_value {
+          functionName: "Get Map Item (Conversation)"
+          args {
+            string_value: "53ded2e9663532a261cd66fb"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53dad4c3663532fc3d204044"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 0
+          }
+        }
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53e032846635326869e99508"
+  }
+  elseActions {
+  }
+  is_oneshot: true
+}
+triggers {
+  name: "mapDescription"
+  events {
+    ops {
+      functionName: "On Conversation Complete"
+    }
+  }
+  conditions {
+  }
+  actions {
+    ops {
+      functionName: "Display Text at Screen Position"
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "TextPopupStyle"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        string_value: "It\'s early enough in the night that the bar is still quiet, mostly empty. Good."
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 0
+      }
+      args {
+        float_value: 60
+      }
+      args {
+        float_value: 3
+      }
+      args {
+        float_value: 0
+      }
+    }
+  }
+  isActive: true
+  idRef {
+    id: "53e039f56635326869e9951b"
   }
   elseActions {
   }
@@ -1661,6 +1788,7 @@ characters {
     z: 6
   }
   orientation: ORIENTATION_E
+  displayName: "BarPatron"
   idRef {
     id: "53de3c90663532e179085dda"
   }
@@ -2612,7 +2740,7 @@ worldMapLocation {
 mapName: "FirstMeeting"
 parentStory: ""
 scene_title: "First Meeting"
-scene_subtitle: ""
+scene_subtitle: "A flashback"
 scene_synopsis: "That night, Kurt falls asleep to the faint glow of Blaine\'s cyberware. Blaine is cuddly tonight, even more cuddly than usual. He only gets likes when he\'s tired and overwhelmed. It\'s a distinctive thing, a Blaine thing. It\'s always the little things that surprise Kurt when it comes to being in love.\n\nThen again, the big things still have the capacity to surprise, too.\n\nHe never expected to meet Blaine when he did. The world had scraped him raw, hardened him up, and the thought that there could be something tender in his life, something gentle, was foreign to him.\n\nThey met on a routine mission, as by-the-book as they come.\n\nIt\'s always the easy ones that take you by surprise."
 scene_image: ""
 scene_continue_button_skip: false

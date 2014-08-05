@@ -2,6 +2,30 @@ idRef {
   id: "53ded2e9663532a261cd66fb"
 }
 ui_name: "s1_IntroText"
+nodes {
+  idRef {
+    id: "53e032296635326869e994f2"
+  }
+  index: 0
+  text: "Dalton was a bit of a run down dive bar, with uneven wooden floors that always smelled like cheap booze and cigarette smoke, decor that was trying too hard, and a clientele that could at best be described as \'shady.\' The underground club underneath the bar had a reputation for breaking out into metahuman fights every so often, and rumor had it that the owners had taken to covering up the scorch marks and bullet holes with new layers of graffiti."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "53e0322f6635326869e994f7"
+  }
+  index: 1
+  text: "Kurt wouldn\'t be here if he didn\'t have to be. But a job\'s a job, and Kurt only needs to stay long enough to lift an optical data chip off some poor Manhattan Corp. patsy who liked to frequent the place. It\'s not exactly exciting, but a job\'s a job, and Kurt can\'t afford to turn down easy money."
+  branches {
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
 roots {
-  nextNodeIndex: -1
+  responseText: ""
+  nextNodeIndex: 0
 }
