@@ -963,6 +963,39 @@ triggers {
         }
       }
     }
+    ops {
+      functionName: "Set Animation State Of Actor To Animation Modifier"
+      args {
+        call_value {
+          functionName: "Get Preset Value (string)"
+          args {
+            string_value: "AnimationState"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (Actor)"
+          args {
+            string_value: "53e0b34b6635326869e9952d"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Map Item (AnimationModifiers)"
+          args {
+            string_value: "sexy"
+          }
+          args {
+            string_value: "sexy"
+          }
+        }
+      }
+    }
   }
   isActive: true
   idRef {
@@ -1416,7 +1449,7 @@ characters {
     y: 0
     z: 9
   }
-  orientation: ORIENTATION_S
+  orientation: ORIENTATION_W
   idRef {
     id: "53dad4c3663532fc3d204044"
   }
@@ -1740,6 +1773,14 @@ characters {
   idRef {
     id: "53de3b34663532e179085dd9"
   }
+  interactionRoot {
+    isEnabled: true
+    interactionRadius: 2
+    conversationPoint {
+      conversationID: "53e174896635326869e99550"
+      turnToFace: true
+    }
+  }
   lod: 0
   character_instance {
     prefab_name: "Seattle:Extras/ElfFemaleFashionista"
@@ -1946,7 +1987,7 @@ characters {
     interactionRadius: 1
     conversationPoint {
       conversationID: "53deeb0c6635326869e994a1"
-      turnToFace: true
+      turnToFace: false
     }
   }
   lod: 0
@@ -2722,11 +2763,69 @@ characters {
     karma: 6
   }
 }
+characters {
+  name: "chars_icon_playerIcon"
+  gridPoint {
+    x: -18
+    y: 0
+    z: -66
+  }
+  orientation: ORIENTATION_E
+  GeneralTags: "dancer"
+  displayName: "BusinessWomanDancing"
+  idRef {
+    id: "53e0b34b6635326869e9952d"
+  }
+  lod: 0
+  character_instance {
+    prefab_name: "Berlin:Business/HumanFemaleBusinessWoman"
+    character_sheet_id: "BaseCivilian"
+    character_mod {
+      stats {
+        body: 0
+        quickness: 0
+        strength: 0
+        charisma: 0
+        intelligence: 0
+        willpower: 0
+        essence: 0
+        hp: 0
+        ap: 0
+        morale: 0
+        discipline: 0
+        awareness: 0
+        perception: 0
+        authority: 0
+        protect_tether_range: 0
+        move_speed: 0
+      }
+      skills {
+      }
+      specializations {
+      }
+      vulnerabilities {
+      }
+    }
+    team_id: "Civilians"
+    char_name: "New Actor"
+    GeneralTags: "dancer"
+    pc_spawn_number: -1
+    karma: 6
+  }
+}
 variables {
   bool_value: false
   variableref_value {
     scope: TsVariableScope_Scene
     name: "musicOn"
+    typeName: "bool"
+  }
+}
+variables {
+  bool_value: false
+  variableref_value {
+    scope: TsVariableScope_Scene
+    name: "canOrderDrink"
     typeName: "bool"
   }
 }

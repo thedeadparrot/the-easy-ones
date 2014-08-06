@@ -1,0 +1,24 @@
+idRef {
+  id: "53e1802c6635326869e99990"
+}
+ui_name: "s1_Corp_Bar_Elf"
+nodes {
+  idRef {
+    id: "53e180426635326869e99998"
+  }
+  index: 0
+  text: "The man is so distracted by his conversation that he doesn\'t see Kurt come up beside him."
+  branches {
+    responseText: "{{GM}}Pickpocket Him{{/GM}}"
+    nextNodeIndex: -1
+  }
+  branches {
+    responseText: "{{GM}}Step Away{{/GM}}\n"
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 0
+}

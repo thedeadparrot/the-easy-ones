@@ -37,7 +37,37 @@ nodes {
     id: "53deeb596635326869e994c3"
   }
   index: 2
-  text: "Never mind."
+  text: "Not exactly."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53dad4c3663532fc3d204044"
+  }
+}
+nodes {
+  idRef {
+    id: "53e174596635326869e9953b"
+  }
+  index: 3
+  text: "As long as no one gets hurt, I didn\'t see anything. You understand me?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de555d663532e179085dde"
+  }
+}
+nodes {
+  idRef {
+    id: "53e174716635326869e99540"
+  }
+  index: 4
+  text: "Understood."
   branches {
     nextNodeIndex: -1
   }

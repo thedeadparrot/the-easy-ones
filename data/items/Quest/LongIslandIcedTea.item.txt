@@ -1,0 +1,8 @@
+id: "LongIslandIcedTea"
+type: ItemType_QuestItem
+uirep {
+  name: "Long Island Iced Tea"
+  description: "A drink. Maybe you\'ll even get a chance to enjoy it soon."
+}
+credentials: 0
+sorting_group: "Quest"

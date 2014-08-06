@@ -1,0 +1,344 @@
+idRef {
+  id: "53e174896635326869e99550"
+}
+ui_name: "s1_Bartender"
+nodes {
+  idRef {
+    id: "53e174b36635326869e9955c"
+  }
+  index: 0
+  text: "The bartender is a pretty elf with a shock of dark hair and a bored, unimpressed expression on her face."
+  branches {
+    responseText: ""
+    nextNodeIndex: 1
+  }
+  nodeType: ConversationNodeType_GM_Voice
+}
+nodes {
+  idRef {
+    id: "53e174c86635326869e99561"
+  }
+  index: 1
+  text: "Can I help you with something?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 2
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de3b34663532e179085dd9"
+  }
+}
+nodes {
+  idRef {
+    id: "53e174d86635326869e99566"
+  }
+  index: 2
+  text: "I\'m looking for someone."
+  branches {
+    responseText: ""
+    nextNodeIndex: 3
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53dad4c3663532fc3d204044"
+  }
+}
+nodes {
+  idRef {
+    id: "53e174e96635326869e9956b"
+  }
+  index: 3
+  text: "{{GM}}She laughs at that.{{/GM}}\n\nAren\'t we all, honey?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de3b34663532e179085dd9"
+  }
+}
+nodes {
+  idRef {
+    id: "53e178f76635326869e9967b"
+  }
+  index: 4
+  text: "What else can I do for you?"
+  branches {
+    responseText: "Can you tell me more about this place?"
+    nextNodeIndex: 5
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "53e17c3f6635326869e9983e"
+    }
+  }
+  branches {
+    responseText: "What do you have on tap?"
+    nextNodeIndex: 6
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "53e17c5f6635326869e99840"
+    }
+  }
+  branches {
+    responseText: "The person I\'m looking for is a corp type, hard to miss. From Manhattan."
+    nextNodeIndex: 9
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "53e17c646635326869e99841"
+    }
+  }
+  branches {
+    responseText: "{{CC}}\302\24510{{/CC}} I\'ll have a Long Island Iced Tea."
+    conditions {
+      ops {
+        functionName: "Comparison (bool)"
+        args {
+          call_value {
+            functionName: "Get Variable (bool)"
+            args {
+              string_value: "canOrderDrink"
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "IsOrIsNot"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+        args {
+          call_value {
+            functionName: "Get Preset Value (int)"
+            args {
+              string_value: "bool"
+            }
+            args {
+              int_value: 1
+            }
+          }
+        }
+      }
+    }
+    nextNodeIndex: 10
+    hideIfUnavailable: true
+    onlyOnce: true
+    idRef {
+      id: "53e17c586635326869e9983f"
+    }
+  }
+  branches {
+    responseText: "That\'s all, thanks."
+    nextNodeIndex: 11
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de3b34663532e179085dd9"
+  }
+}
+nodes {
+  idRef {
+    id: "53e178f76635326869e9967e"
+  }
+  index: 5
+  text: "Dalton\'s been here since before the Awakening, but it\'s always been friendly to us metahumans. Wes runs a tight ship around here, makes sure everyone walks away happy -- or, at least, not any worse off than they were when they got here.\n\nI always get paid on time, which is about all you could ask for. There\'s a club downstairs that draws a more varied clientele, but up here it stays pretty quiet."
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de3b34663532e179085dd9"
+  }
+}
+nodes {
+  idRef {
+    id: "53e178f76635326869e99684"
+  }
+  index: 6
+  text: "Wyvern\'s Tooth is always a favorite, and we\'ve got some Bob\'s for the less adventurous types, and the Orkstaff\'s XXX is a big favorite amongst the trolls and orcs. But looking at you, I\'d say you\'re more of a mixed drinks sort of guy."
+  branches {
+    responseText: ""
+    nextNodeIndex: 7
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de3b34663532e179085dd9"
+  }
+  actions {
+    ops {
+      functionName: "Set Variable (bool)"
+      args {
+        call_value {
+          functionName: "Get Variable (bool)"
+          args {
+            string_value: "canOrderDrink"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "bool"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "53e178f76635326869e99687"
+  }
+  index: 7
+  text: "That obvious, huh?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 8
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53dad4c3663532fc3d204044"
+  }
+}
+nodes {
+  idRef {
+    id: "53e178f76635326869e9968a"
+  }
+  index: 8
+  text: "It\'s what I get paid for."
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de3b34663532e179085dd9"
+  }
+}
+nodes {
+  idRef {
+    id: "53e178f76635326869e99690"
+  }
+  index: 9
+  text: "Plenty of those around here, but they tend to head downstairs, where it\'s shinier and all that drek. Those types like to slum it up, but not where they\'re too uncomfortable, you know?"
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de3b34663532e179085dd9"
+  }
+}
+nodes {
+  idRef {
+    id: "53e178f76635326869e99693"
+  }
+  index: 10
+  text: "Coming right up.\n"
+  branches {
+    responseText: ""
+    nextNodeIndex: 4
+    auxiliaryLink: true
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de3b34663532e179085dd9"
+  }
+  actions {
+    ops {
+      functionName: "Remove Nuyen"
+      args {
+        int_value: 10
+      }
+    }
+    ops {
+      functionName: "Add Item to Actor"
+      args {
+        call_value {
+          functionName: "Get Map Item (Item)"
+          args {
+            string_value: "LongIslandIcedTea"
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Specific Actor"
+          args {
+            call_value {
+              functionName: "Get Map Item (Actor)"
+              args {
+                string_value: "53dad4c3663532fc3d204044"
+              }
+            }
+          }
+          args {
+          }
+        }
+      }
+      args {
+        call_value {
+          functionName: "Get Preset Value (int)"
+          args {
+            string_value: "WithOrWithout"
+          }
+          args {
+            int_value: 1
+          }
+        }
+      }
+    }
+  }
+}
+nodes {
+  idRef {
+    id: "53e17b556635326869e997a7"
+  }
+  index: 11
+  text: "Don\'t look now, but that guy in the corner over by the piano has been watching you. Figured you\'d want to know."
+  branches {
+    responseText: ""
+    nextNodeIndex: 12
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53de3b34663532e179085dd9"
+  }
+}
+nodes {
+  idRef {
+    id: "53e17b886635326869e997ac"
+  }
+  index: 12
+  text: "{{GM}}Kurt glances over. He can see who she\'s talking about, a dark-haired man in a long coat, who alternates glances between Kurt and the piano stool.{{/GM}}\n\nGood to know. Thanks. I appreciate it.\n"
+  branches {
+    responseText: ""
+    nextNodeIndex: -1
+  }
+  nodeType: ConversationNodeType_Simple
+  sourceInSceneRef {
+    id: "53dad4c3663532fc3d204044"
+  }
+}
+roots {
+  responseText: ""
+  nextNodeIndex: 0
+}
